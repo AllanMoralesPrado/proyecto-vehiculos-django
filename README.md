@@ -49,3 +49,12 @@ Proyecto creado en el entorno de desarrollo python/django, para gestionar inform
     ```bash
     py manage.py runserver
     ```
+
+## Endpoints
+- `GET /`
+    - Título: *Catálogo | inicio*
+    - Descripción: Vista principal para el catálogo
+- `GET /vehiculo/add`
+    - Título: *Añadir al Catálogo*
+    - Descripción: Formulario para añadir un nuevo vehículo
+- `POST /vehiculo/add`
