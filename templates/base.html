@@ -6,9 +6,13 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title>{{ title_page | default:"Catálogo | inicio" }}</title>
+    {% load django_bootstrap5 %}
+    {% bootstrap_css %}
 </head>
 <body>
     {% block body_page %}
     {% endblock body_page %}
+    {% bootstrap_javascript %}
+    {% bootstrap_messages %}
 </body>
 </html>
