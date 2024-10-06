@@ -39,7 +39,6 @@ Proyecto creado en el entorno de desarrollo python/django, para gestionar inform
 4) Crear archivo .env con los siguientes pares clave-valor:
     ```dotenv
     SECRET_KEY='tu_clave_secreta'
-    DEBUG=False
     ```
 5) Aplicar las migraciones
     ```bash
