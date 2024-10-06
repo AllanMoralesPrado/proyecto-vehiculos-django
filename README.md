@@ -34,7 +34,7 @@ Proyecto creado en el entorno de desarrollo python/django, para gestionar inform
     ```
 3) Instalar dependencias
     ```bash
-    py -m pip install requirements.txt
+    py -m pip install -r requirements.txt
     ```
 4) Crear archivo .env con los siguientes pares clave-valor:
     ```dotenv
